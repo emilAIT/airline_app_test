@@ -8,14 +8,15 @@ along with
 
 ## how to create a pull request
 open terminal in visual studio or CMD 
-> git clone https://github.com/emilAIT/airline_app_test.git
-> cd airline_app_test
-> git checkout -b <your-name>   (for example ``` git checkout -b emil ```)
+```> git clone https://github.com/emilAIT/airline_app_test.git```
+```> cd airline_app_test```
+```> git checkout -b <your-name>```   (for example ``` git checkout -b emil ```)
 - update README.md file with instructions above
 - copy flutter code to airline_app_test/app folder
 - copy backend code to airline_app_test/backend code
-> git add .
-> git commit -am '<your-name>'
-> git push origin head
+```> git add .```
+```> git commit -am '<your-name>'```
+```> git push origin head```
+
 
 
