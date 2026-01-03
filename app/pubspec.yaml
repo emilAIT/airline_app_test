@@ -1,0 +1,38 @@
+name: airline_app
+description: Airline Booking & Operations System - Flutter Mobile App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP client
+  http: ^1.1.0
+  
+  # State management
+  provider: ^6.1.1
+  
+  # Local storage
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^10.0.0
+  
+  # Date formatting
+  intl: ^0.20.2
+  
+  # QR code
+  qr_flutter: ^4.1.0
+  
+  # Icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,2 @@
+// Staff announcements controller placeholder
+

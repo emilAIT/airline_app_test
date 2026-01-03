@@ -1,0 +1,2 @@
+// Booking controller placeholder
+
