@@ -1,0 +1,928 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:2:5-33:19
+INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml
+MERGED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:20:5-75:19
+MERGED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:20:5-75:19
+MERGED from [androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:7:5-81:19
+MERGED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:7:5-81:19
+MERGED from [com.stripe:payments-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d4b6c3254461be95904f7e05eb5e6dd6/transformed/payments-ui-core-21.6.0/AndroidManifest.xml:7:5-12:19
+MERGED from [com.stripe:payments-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d4b6c3254461be95904f7e05eb5e6dd6/transformed/payments-ui-core-21.6.0/AndroidManifest.xml:7:5-12:19
+MERGED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:14:5-71:19
+MERGED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:14:5-71:19
+MERGED from [com.stripe:stripe-3ds2-android:6.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4ee433822fe81a628098999b982bae0f/transformed/stripe-3ds2-android-6.2.0/AndroidManifest.xml:7:5-12:19
+MERGED from [com.stripe:stripe-3ds2-android:6.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4ee433822fe81a628098999b982bae0f/transformed/stripe-3ds2-android-6.2.0/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.material:material:1.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/05d61c867193c596d73d8d52c146920c/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/05d61c867193c596d73d8d52c146920c/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a90e4fae6401b37e07ce51cca3184d43/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a90e4fae6401b37e07ce51cca3184d43/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/eeeafe32d80f58fb92382465d4409d33/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/eeeafe32d80f58fb92382465d4409d33/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a593296fa76ab1f04e83431ca3fdbaf0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a593296fa76ab1f04e83431ca3fdbaf0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-identity:18.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8a6a7eea5ed8f99dc6f90c5925abc65a/transformed/play-services-identity-18.1.0/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-identity:18.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8a6a7eea5ed8f99dc6f90c5925abc65a/transformed/play-services-identity-18.1.0/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d81c4a2a9fcfd72de9ecf65f4940bcbf/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d81c4a2a9fcfd72de9ecf65f4940bcbf/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.play:integrity:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a736294674053b493a2a2fde8b47fffd/transformed/integrity-1.4.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a736294674053b493a2a2fde8b47fffd/transformed/integrity-1.4.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/725fda46d52062eb149a5aad5e7381de/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/725fda46d52062eb149a5aad5e7381de/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ca92e8ab9ef5e02151a6b800752907c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ca92e8ab9ef5e02151a6b800752907c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fac3bdbb065ba11aedd38e2ea2c0656c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fac3bdbb065ba11aedd38e2ea2c0656c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7cab46fe45e9639958d088d00ea2e29d/transformed/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7cab46fe45e9639958d088d00ea2e29d/transformed/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/75c850d93edffb1f0e79a2b1090091ce/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/75c850d93edffb1f0e79a2b1090091ce/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/42ac8ed7dbea9109a454e8d680e19f87/transformed/instantapps-1.1.0/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/42ac8ed7dbea9109a454e8d680e19f87/transformed/instantapps-1.1.0/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:1:1-45:12
+MERGED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+MERGED from [:shared_preferences_android] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/shared_preferences_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:stripe_android] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/stripe_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [com.stripe:stripe-android:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/6adc0ff9712baddf0b7b16d2027afa7a/transformed/stripe-android-21.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:2:1-77:12
+MERGED from [:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.preference:preference:1.2.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/20f0791ef06de9a52b6d96cbab664067/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a025d55a2a25ab75247854efbfd31b10/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/667d45e2fbce9f096055a52553f53740/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/631c1f23d2ad502a14bcd486bb3a0369/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/684fec45a4a4620be950d54dccaf82cd/transformed/window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:2:1-83:12
+MERGED from [com.stripe:payments-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d4b6c3254461be95904f7e05eb5e6dd6/transformed/payments-ui-core-21.6.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:2:1-73:12
+MERGED from [com.stripe:payments-model:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c7422ea14a7f19f5342d2438f80b103b/transformed/payments-model-21.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.stripe:stripe-3ds2-android:6.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4ee433822fe81a628098999b982bae0f/transformed/stripe-3ds2-android-6.2.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.accompanist:accompanist-themeadapter-appcompat:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/45e9fc1b3a531eb0bb1756ecdb426427/transformed/accompanist-themeadapter-appcompat-0.34.0/AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.accompanist:accompanist-themeadapter-material:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/117a043bdb4b9630d006a6bd36753146/transformed/accompanist-themeadapter-material-0.34.0/AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.accompanist:accompanist-themeadapter-material3:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/cfaa58abf6688ac5b74c6d564c02a228/transformed/accompanist-themeadapter-material3-0.34.0/AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.accompanist:accompanist-themeadapter-core:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/e500168ca402d1d0e116284df0a20718/transformed/accompanist-themeadapter-core-0.34.0/AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.android.material:material:1.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/05d61c867193c596d73d8d52c146920c/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a90e4fae6401b37e07ce51cca3184d43/transformed/constraintlayout-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.stripe:hcaptcha:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/18d870bec93fda0e676e6ad143538733/transformed/hcaptcha-21.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/00a86370de0107cf7b644cf3fd91115a/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/9330673afe9587a4903213a808ceb821/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.stripe:stripe-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d1427f394fdd3173840b97557c61a8f4/transformed/stripe-ui-core-21.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.stripe:stripe-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ddaa60cae3c5a3e83ba26b272dddb2e6/transformed/stripe-core-21.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.browser:browser:1.8.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d99e3dcd9d483a38ae36c8840669b104/transformed/browser-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fd33d4b67d8a05af5d0743553e8d3920/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/adb117236d43a2371662bc9e9970e9b5/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/89d01d83a54ab49ecf9a93766950ec5f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ea130cff24ffba33708d14df29a80af5/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/eeeafe32d80f58fb92382465d4409d33/transformed/glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.activity:activity:1.9.3] /Users/nagimaismailova/.gradle/caches/8.14/transforms/9a6c73ddef768897a7820466fcd8410f/transformed/activity-1.9.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d7bb95568b5132bb4e3e67e59398fe43/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c07930d99361f34be77e85fecfd13126/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/985b0ee1dae416ba5f1ea73bb8d32adb/transformed/navigation-compose-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/6802a90dc4d9c4c5c1655ef04bba6d76/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7524c2519dc07ed97665a812f1b84023/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/nagimaismailova/.gradle/caches/8.14/transforms/39aa15d6ecf426e985e625ebb6dcf238/transformed/activity-ktx-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c083ba3d5987823c4d447dbea0b50e69/transformed/activity-compose-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b0496e63ac1c92b926c00654b7b25db5/transformed/accompanist-systemuicontroller-0.34.0/AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.pay.button:compose-pay-button:0.1.3] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f2f2ad5c3e144f7989745a68f1ceff45/transformed/compose-pay-button-0.1.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3:1.0.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f7e3523eeaef781b8d05283fdba9d0f8/transformed/material3-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fd04dec260160bfe6b91add64e08d2b4/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/5db0a5ab31b08498b7509d399699d713/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/767dfc9bf210524416079e12e904cef0/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7446dd01559306cf9196bf09f8a9815d/transformed/accompanist-flowlayout-0.34.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b579446593a552322659f77aa2f30984/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a95bb86203d3b985d9012f2b07d84472/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c1493f25477937dda81d7d2e2749ff94/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8ffe40c06a259caf44d4f11de88b8f69/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/142d5c77bb9579db57cbad75cb08a7d4/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/e4528314f7d2f1ef58a4a361a4e4f288/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f7ba94a8782475cb1ee3945e16b76cb5/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ed0f846b8de29b62f0a0a704bbe62760/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c2751fd80302fdbec00cb643f737abfa/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/2e8ddd50f012a8c7ccd19057eda2d02b/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b2bc2d2ab40ff6cc44807414981c4fbe/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d148ff515f5aca379a93f0738fb87fa8/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a3c4bf2e80a7e6a2d3bfce7149bfaf69/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/2469cd92f3407e9e894f8f5af5b591a2/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b92a67865b9784af8fb75cfc8b4e5aa4/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/9aaf4198faa2edede8f0710d1152c850/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/38c67e402e28edbdc64b326b526137bd/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/e509b06044ae9f6677acbfc0070afb06/transformed/lifecycle-livedata-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/98ab35a46a97ae3862542c0565a14edb/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ef192dad5f20d42182cf7417262061c6/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a593296fa76ab1f04e83431ca3fdbaf0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b440534c2d023070261c55732ad4f3dc/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/886c156b62c5841a0c511e2f30a402e9/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/759ef3d54b03a79ef124448097399996/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f1229322c75565bb3dbacce1364232c9/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/85e7f778ad83fdd4e8db6b7edac4265e/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/290c97842083985da3ab5fab169d2845/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-viewbinding:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8abbb4c0fc563df1998adbe915ee9d05/transformed/ui-viewbinding-1.6.8/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.8.6] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b21a2ffde73fe949c3b640c02d4bfa14/transformed/fragment-ktx-1.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-wallet:19.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f9d4d86cab55c223c2d70e49f795fb35/transformed/play-services-wallet-19.4.0/AndroidManifest.xml:2:1-6:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7ecb03c06fee5d79958b42ceb53fcfc9/transformed/recyclerview-1.3.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/nagimaismailova/.gradle/caches/8.14/transforms/5ac5ac324d6ca92e20925184e39bcd96/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-identity:18.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8a6a7eea5ed8f99dc6f90c5925abc65a/transformed/play-services-identity-18.1.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d81c4a2a9fcfd72de9ecf65f4940bcbf/transformed/play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.stripe:attestation:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/58effecfd3ac86829c51903bd89fe679/transformed/attestation-21.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.play:integrity:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a736294674053b493a2a2fde8b47fffd/transformed/integrity-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d029a6c0c1ba35516d970781df150051/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/50fb693b8c8e57b7af571c6c0bada251/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f2b86e9c7312714eacb7763e5167c631/transformed/datastore-preferences-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/93c157b8fbb8b008a5b83470724eb4bd/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/62414a17cf0131c39753dba4695aafb1/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-android:1.1.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/43d340321be1a72ca103b8ccb695b392/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/725fda46d52062eb149a5aad5e7381de/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ca92e8ab9ef5e02151a6b800752907c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.8.6] /Users/nagimaismailova/.gradle/caches/8.14/transforms/43dc31c130023893fa7e87ac34ba2835/transformed/fragment-1.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/0b8c65722c66640cf120e60317d42362/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7be6cf4f52d84b0f524b317232df5d4c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/1cc5bad6850a5ad601485f9ff3510a6e/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/bd7e8451c9c7af9c0727ed7672bd833e/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b7b8d8d45b93341562c2aba0e77135c0/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/0ba309a098ae6f802a87949882e3d5fd/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/38c13d54853ea3ced35ec2d6229fd2e6/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/30e9bb160a15691def72cffe8d83518e/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/303d75da538f5bc55f11884bb8fd86cd/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fd9c0c018ac1b6d813c3385bd4b2b2d3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/1dd861f3eb721f8a05e16b90d98c57e1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/1aaf5dd4791780f5e95fca3805127200/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fac3bdbb065ba11aedd38e2ea2c0656c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f33585d6fc1e1b2a34e4c1d736d386ca/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7cab46fe45e9639958d088d00ea2e29d/transformed/gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/213c91815a4307776a6c856f5610daae/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/875ffbd89ac9c7dfd0a91922397ce327/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/75c850d93edffb1f0e79a2b1090091ce/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.databinding:viewbinding:8.8.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/337dde054c20ea59bcdf0debcf8607f7/transformed/viewbinding-8.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/2d0327b62ea36166e38eb124b816e651/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/45aa20a8e5e8142607c49e5c21c65b2d/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/9ea5fb294ae16807016deb98f1fb4e50/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/dbb8a6ef0d993a462b1eec6f87fba62f/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8b553870adc7ac07c61aa64705ec7f72/transformed/core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a058cf663b8cca91d41fb58d37b3ef4c/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/95cdd7ca87255f13e4af9ad26a5e03dc/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4a2afc65b9ed218e0750eeb8c2075f0c/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/nagimaismailova/.gradle/caches/8.14/transforms/15a558128bbbec921e6710294f0a125f/transformed/relinker-1.4.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/42ac8ed7dbea9109a454e8d680e19f87/transformed/instantapps-1.1.0/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:2:1-21:12
+	package
+		INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:1:11-69
+queries
+ADDED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:39:5-44:15
+MERGED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:10:5-18:15
+MERGED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:10:5-18:15
+MERGED from [:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-17:15
+MERGED from [:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-17:15
+MERGED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:8:5-12:15
+MERGED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:8:5-12:15
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:40:9-43:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:41:13-72
+	android:name
+		ADDED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:41:21-70
+data
+ADDED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:13-50
+	android:mimeType
+		ADDED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:19-48
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:7:5-67
+MERGED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-sdk
+INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/shared_preferences_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/shared_preferences_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:stripe_android] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/stripe_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:stripe_android] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/stripe_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-android:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/6adc0ff9712baddf0b7b16d2027afa7a/transformed/stripe-android-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-android:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/6adc0ff9712baddf0b7b16d2027afa7a/transformed/stripe-android-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.preference:preference:1.2.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/20f0791ef06de9a52b6d96cbab664067/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/20f0791ef06de9a52b6d96cbab664067/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a025d55a2a25ab75247854efbfd31b10/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a025d55a2a25ab75247854efbfd31b10/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/667d45e2fbce9f096055a52553f53740/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/667d45e2fbce9f096055a52553f53740/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/631c1f23d2ad502a14bcd486bb3a0369/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/631c1f23d2ad502a14bcd486bb3a0369/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/684fec45a4a4620be950d54dccaf82cd/transformed/window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/684fec45a4a4620be950d54dccaf82cd/transformed/window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:payments-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d4b6c3254461be95904f7e05eb5e6dd6/transformed/payments-ui-core-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:payments-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d4b6c3254461be95904f7e05eb5e6dd6/transformed/payments-ui-core-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:payments-model:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c7422ea14a7f19f5342d2438f80b103b/transformed/payments-model-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:payments-model:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c7422ea14a7f19f5342d2438f80b103b/transformed/payments-model-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-3ds2-android:6.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4ee433822fe81a628098999b982bae0f/transformed/stripe-3ds2-android-6.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-3ds2-android:6.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4ee433822fe81a628098999b982bae0f/transformed/stripe-3ds2-android-6.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-appcompat:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/45e9fc1b3a531eb0bb1756ecdb426427/transformed/accompanist-themeadapter-appcompat-0.34.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-appcompat:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/45e9fc1b3a531eb0bb1756ecdb426427/transformed/accompanist-themeadapter-appcompat-0.34.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-material:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/117a043bdb4b9630d006a6bd36753146/transformed/accompanist-themeadapter-material-0.34.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-material:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/117a043bdb4b9630d006a6bd36753146/transformed/accompanist-themeadapter-material-0.34.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-material3:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/cfaa58abf6688ac5b74c6d564c02a228/transformed/accompanist-themeadapter-material3-0.34.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-material3:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/cfaa58abf6688ac5b74c6d564c02a228/transformed/accompanist-themeadapter-material3-0.34.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-core:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/e500168ca402d1d0e116284df0a20718/transformed/accompanist-themeadapter-core-0.34.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-core:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/e500168ca402d1d0e116284df0a20718/transformed/accompanist-themeadapter-core-0.34.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/05d61c867193c596d73d8d52c146920c/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/05d61c867193c596d73d8d52c146920c/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a90e4fae6401b37e07ce51cca3184d43/transformed/constraintlayout-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a90e4fae6401b37e07ce51cca3184d43/transformed/constraintlayout-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:hcaptcha:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/18d870bec93fda0e676e6ad143538733/transformed/hcaptcha-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:hcaptcha:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/18d870bec93fda0e676e6ad143538733/transformed/hcaptcha-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/00a86370de0107cf7b644cf3fd91115a/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/00a86370de0107cf7b644cf3fd91115a/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/9330673afe9587a4903213a808ceb821/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/9330673afe9587a4903213a808ceb821/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d1427f394fdd3173840b97557c61a8f4/transformed/stripe-ui-core-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d1427f394fdd3173840b97557c61a8f4/transformed/stripe-ui-core-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ddaa60cae3c5a3e83ba26b272dddb2e6/transformed/stripe-core-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ddaa60cae3c5a3e83ba26b272dddb2e6/transformed/stripe-core-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d99e3dcd9d483a38ae36c8840669b104/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d99e3dcd9d483a38ae36c8840669b104/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fd33d4b67d8a05af5d0743553e8d3920/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fd33d4b67d8a05af5d0743553e8d3920/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/adb117236d43a2371662bc9e9970e9b5/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/adb117236d43a2371662bc9e9970e9b5/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/89d01d83a54ab49ecf9a93766950ec5f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/89d01d83a54ab49ecf9a93766950ec5f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ea130cff24ffba33708d14df29a80af5/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ea130cff24ffba33708d14df29a80af5/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/eeeafe32d80f58fb92382465d4409d33/transformed/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/eeeafe32d80f58fb92382465d4409d33/transformed/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.activity:activity:1.9.3] /Users/nagimaismailova/.gradle/caches/8.14/transforms/9a6c73ddef768897a7820466fcd8410f/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /Users/nagimaismailova/.gradle/caches/8.14/transforms/9a6c73ddef768897a7820466fcd8410f/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d7bb95568b5132bb4e3e67e59398fe43/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d7bb95568b5132bb4e3e67e59398fe43/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c07930d99361f34be77e85fecfd13126/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c07930d99361f34be77e85fecfd13126/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/985b0ee1dae416ba5f1ea73bb8d32adb/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/985b0ee1dae416ba5f1ea73bb8d32adb/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/6802a90dc4d9c4c5c1655ef04bba6d76/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/6802a90dc4d9c4c5c1655ef04bba6d76/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7524c2519dc07ed97665a812f1b84023/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7524c2519dc07ed97665a812f1b84023/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/nagimaismailova/.gradle/caches/8.14/transforms/39aa15d6ecf426e985e625ebb6dcf238/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/nagimaismailova/.gradle/caches/8.14/transforms/39aa15d6ecf426e985e625ebb6dcf238/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c083ba3d5987823c4d447dbea0b50e69/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c083ba3d5987823c4d447dbea0b50e69/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b0496e63ac1c92b926c00654b7b25db5/transformed/accompanist-systemuicontroller-0.34.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b0496e63ac1c92b926c00654b7b25db5/transformed/accompanist-systemuicontroller-0.34.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.pay.button:compose-pay-button:0.1.3] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f2f2ad5c3e144f7989745a68f1ceff45/transformed/compose-pay-button-0.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.pay.button:compose-pay-button:0.1.3] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f2f2ad5c3e144f7989745a68f1ceff45/transformed/compose-pay-button-0.1.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3:1.0.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f7e3523eeaef781b8d05283fdba9d0f8/transformed/material3-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.0.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f7e3523eeaef781b8d05283fdba9d0f8/transformed/material3-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fd04dec260160bfe6b91add64e08d2b4/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fd04dec260160bfe6b91add64e08d2b4/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/5db0a5ab31b08498b7509d399699d713/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/5db0a5ab31b08498b7509d399699d713/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/767dfc9bf210524416079e12e904cef0/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/767dfc9bf210524416079e12e904cef0/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7446dd01559306cf9196bf09f8a9815d/transformed/accompanist-flowlayout-0.34.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.34.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7446dd01559306cf9196bf09f8a9815d/transformed/accompanist-flowlayout-0.34.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b579446593a552322659f77aa2f30984/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b579446593a552322659f77aa2f30984/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a95bb86203d3b985d9012f2b07d84472/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a95bb86203d3b985d9012f2b07d84472/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c1493f25477937dda81d7d2e2749ff94/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c1493f25477937dda81d7d2e2749ff94/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8ffe40c06a259caf44d4f11de88b8f69/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8ffe40c06a259caf44d4f11de88b8f69/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/142d5c77bb9579db57cbad75cb08a7d4/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/142d5c77bb9579db57cbad75cb08a7d4/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/e4528314f7d2f1ef58a4a361a4e4f288/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/e4528314f7d2f1ef58a4a361a4e4f288/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f7ba94a8782475cb1ee3945e16b76cb5/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f7ba94a8782475cb1ee3945e16b76cb5/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ed0f846b8de29b62f0a0a704bbe62760/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ed0f846b8de29b62f0a0a704bbe62760/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c2751fd80302fdbec00cb643f737abfa/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c2751fd80302fdbec00cb643f737abfa/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/2e8ddd50f012a8c7ccd19057eda2d02b/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/2e8ddd50f012a8c7ccd19057eda2d02b/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b2bc2d2ab40ff6cc44807414981c4fbe/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b2bc2d2ab40ff6cc44807414981c4fbe/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d148ff515f5aca379a93f0738fb87fa8/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d148ff515f5aca379a93f0738fb87fa8/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a3c4bf2e80a7e6a2d3bfce7149bfaf69/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a3c4bf2e80a7e6a2d3bfce7149bfaf69/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/2469cd92f3407e9e894f8f5af5b591a2/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/2469cd92f3407e9e894f8f5af5b591a2/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b92a67865b9784af8fb75cfc8b4e5aa4/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b92a67865b9784af8fb75cfc8b4e5aa4/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/9aaf4198faa2edede8f0710d1152c850/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/9aaf4198faa2edede8f0710d1152c850/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/38c67e402e28edbdc64b326b526137bd/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/38c67e402e28edbdc64b326b526137bd/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/e509b06044ae9f6677acbfc0070afb06/transformed/lifecycle-livedata-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/e509b06044ae9f6677acbfc0070afb06/transformed/lifecycle-livedata-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/98ab35a46a97ae3862542c0565a14edb/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/98ab35a46a97ae3862542c0565a14edb/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ef192dad5f20d42182cf7417262061c6/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ef192dad5f20d42182cf7417262061c6/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a593296fa76ab1f04e83431ca3fdbaf0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a593296fa76ab1f04e83431ca3fdbaf0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b440534c2d023070261c55732ad4f3dc/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b440534c2d023070261c55732ad4f3dc/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/886c156b62c5841a0c511e2f30a402e9/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/886c156b62c5841a0c511e2f30a402e9/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/759ef3d54b03a79ef124448097399996/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/759ef3d54b03a79ef124448097399996/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f1229322c75565bb3dbacce1364232c9/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f1229322c75565bb3dbacce1364232c9/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/85e7f778ad83fdd4e8db6b7edac4265e/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/85e7f778ad83fdd4e8db6b7edac4265e/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/290c97842083985da3ab5fab169d2845/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/290c97842083985da3ab5fab169d2845/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-viewbinding:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8abbb4c0fc563df1998adbe915ee9d05/transformed/ui-viewbinding-1.6.8/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-viewbinding:1.6.8] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8abbb4c0fc563df1998adbe915ee9d05/transformed/ui-viewbinding-1.6.8/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.6] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b21a2ffde73fe949c3b640c02d4bfa14/transformed/fragment-ktx-1.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.6] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b21a2ffde73fe949c3b640c02d4bfa14/transformed/fragment-ktx-1.8.6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-wallet:19.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f9d4d86cab55c223c2d70e49f795fb35/transformed/play-services-wallet-19.4.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-wallet:19.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f9d4d86cab55c223c2d70e49f795fb35/transformed/play-services-wallet-19.4.0/AndroidManifest.xml:4:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7ecb03c06fee5d79958b42ceb53fcfc9/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7ecb03c06fee5d79958b42ceb53fcfc9/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/nagimaismailova/.gradle/caches/8.14/transforms/5ac5ac324d6ca92e20925184e39bcd96/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/nagimaismailova/.gradle/caches/8.14/transforms/5ac5ac324d6ca92e20925184e39bcd96/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity:18.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8a6a7eea5ed8f99dc6f90c5925abc65a/transformed/play-services-identity-18.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-identity:18.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8a6a7eea5ed8f99dc6f90c5925abc65a/transformed/play-services-identity-18.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d81c4a2a9fcfd72de9ecf65f4940bcbf/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d81c4a2a9fcfd72de9ecf65f4940bcbf/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.stripe:attestation:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/58effecfd3ac86829c51903bd89fe679/transformed/attestation-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:attestation:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/58effecfd3ac86829c51903bd89fe679/transformed/attestation-21.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a736294674053b493a2a2fde8b47fffd/transformed/integrity-1.4.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a736294674053b493a2a2fde8b47fffd/transformed/integrity-1.4.0/AndroidManifest.xml:4:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d029a6c0c1ba35516d970781df150051/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d029a6c0c1ba35516d970781df150051/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/50fb693b8c8e57b7af571c6c0bada251/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/50fb693b8c8e57b7af571c6c0bada251/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f2b86e9c7312714eacb7763e5167c631/transformed/datastore-preferences-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f2b86e9c7312714eacb7763e5167c631/transformed/datastore-preferences-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/93c157b8fbb8b008a5b83470724eb4bd/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/93c157b8fbb8b008a5b83470724eb4bd/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/62414a17cf0131c39753dba4695aafb1/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/62414a17cf0131c39753dba4695aafb1/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/43d340321be1a72ca103b8ccb695b392/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/43d340321be1a72ca103b8ccb695b392/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/725fda46d52062eb149a5aad5e7381de/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/725fda46d52062eb149a5aad5e7381de/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ca92e8ab9ef5e02151a6b800752907c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ca92e8ab9ef5e02151a6b800752907c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.8.6] /Users/nagimaismailova/.gradle/caches/8.14/transforms/43dc31c130023893fa7e87ac34ba2835/transformed/fragment-1.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.6] /Users/nagimaismailova/.gradle/caches/8.14/transforms/43dc31c130023893fa7e87ac34ba2835/transformed/fragment-1.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/0b8c65722c66640cf120e60317d42362/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/0b8c65722c66640cf120e60317d42362/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7be6cf4f52d84b0f524b317232df5d4c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7be6cf4f52d84b0f524b317232df5d4c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/1cc5bad6850a5ad601485f9ff3510a6e/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/1cc5bad6850a5ad601485f9ff3510a6e/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/bd7e8451c9c7af9c0727ed7672bd833e/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/bd7e8451c9c7af9c0727ed7672bd833e/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b7b8d8d45b93341562c2aba0e77135c0/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/b7b8d8d45b93341562c2aba0e77135c0/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/0ba309a098ae6f802a87949882e3d5fd/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/0ba309a098ae6f802a87949882e3d5fd/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/38c13d54853ea3ced35ec2d6229fd2e6/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/38c13d54853ea3ced35ec2d6229fd2e6/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/30e9bb160a15691def72cffe8d83518e/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/30e9bb160a15691def72cffe8d83518e/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/303d75da538f5bc55f11884bb8fd86cd/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/303d75da538f5bc55f11884bb8fd86cd/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fd9c0c018ac1b6d813c3385bd4b2b2d3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fd9c0c018ac1b6d813c3385bd4b2b2d3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/1dd861f3eb721f8a05e16b90d98c57e1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/1dd861f3eb721f8a05e16b90d98c57e1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/1aaf5dd4791780f5e95fca3805127200/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/1aaf5dd4791780f5e95fca3805127200/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fac3bdbb065ba11aedd38e2ea2c0656c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fac3bdbb065ba11aedd38e2ea2c0656c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f33585d6fc1e1b2a34e4c1d736d386ca/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/f33585d6fc1e1b2a34e4c1d736d386ca/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7cab46fe45e9639958d088d00ea2e29d/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7cab46fe45e9639958d088d00ea2e29d/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/213c91815a4307776a6c856f5610daae/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/213c91815a4307776a6c856f5610daae/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/875ffbd89ac9c7dfd0a91922397ce327/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/875ffbd89ac9c7dfd0a91922397ce327/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/75c850d93edffb1f0e79a2b1090091ce/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/75c850d93edffb1f0e79a2b1090091ce/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:8.8.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/337dde054c20ea59bcdf0debcf8607f7/transformed/viewbinding-8.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.8.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/337dde054c20ea59bcdf0debcf8607f7/transformed/viewbinding-8.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/2d0327b62ea36166e38eb124b816e651/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/2d0327b62ea36166e38eb124b816e651/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/45aa20a8e5e8142607c49e5c21c65b2d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/45aa20a8e5e8142607c49e5c21c65b2d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/9ea5fb294ae16807016deb98f1fb4e50/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/9ea5fb294ae16807016deb98f1fb4e50/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/dbb8a6ef0d993a462b1eec6f87fba62f/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/dbb8a6ef0d993a462b1eec6f87fba62f/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8b553870adc7ac07c61aa64705ec7f72/transformed/core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8b553870adc7ac07c61aa64705ec7f72/transformed/core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a058cf663b8cca91d41fb58d37b3ef4c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a058cf663b8cca91d41fb58d37b3ef4c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/95cdd7ca87255f13e4af9ad26a5e03dc/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/95cdd7ca87255f13e4af9ad26a5e03dc/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4a2afc65b9ed218e0750eeb8c2075f0c/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4a2afc65b9ed218e0750eeb8c2075f0c/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/nagimaismailova/.gradle/caches/8.14/transforms/15a558128bbbec921e6710294f0a125f/transformed/relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/nagimaismailova/.gradle/caches/8.14/transforms/15a558128bbbec921e6710294f0a125f/transformed/relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/42ac8ed7dbea9109a454e8d680e19f87/transformed/instantapps-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/42ac8ed7dbea9109a454e8d680e19f87/transformed/instantapps-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml
+intent#action:name:android.intent.action.VIEW+data:scheme:http
+ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:13:9-17:18
+action#android.intent.action.VIEW
+ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:14:13-65
+	android:name
+		ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:14:21-62
+activity#com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity
+ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:21:9-65:20
+	android:launchMode
+		ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:24:13-44
+	android:exported
+		ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:22:13-109
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:auth-redirect+data:host:link-accounts+data:host:link-accounts+data:host:link-accounts+data:host:link-native-accounts+data:host:native-redirect+data:path:/${applicationId}/cancel+data:path:/${applicationId}/success+data:pathPrefix:/${applicationId}+data:pathPrefix:/${applicationId}+data:pathPrefix:/${applicationId}/authentication_return+data:pathPrefix:/${applicationId}/authentication_return+data:scheme:stripe+data:scheme:stripe-auth+data:scheme:stripe-auth+data:scheme:stripe-auth+data:scheme:stripe-auth+data:scheme:stripe-auth
+ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:25:13-64:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:auth-redirect+data:host:link-accounts+data:host:link-accounts+data:host:link-accounts+data:host:link-native-accounts+data:host:native-redirect+data:path:/com.example.flutter_application_1/cancel+data:path:/com.example.flutter_application_1/success+data:pathPrefix:/com.example.flutter_application_1+data:pathPrefix:/com.example.flutter_application_1+data:pathPrefix:/com.example.flutter_application_1/authentication_return+data:pathPrefix:/com.example.flutter_application_1/authentication_return+data:scheme:stripe+data:scheme:stripe-auth+data:scheme:stripe-auth+data:scheme:stripe-auth+data:scheme:stripe-auth+data:scheme:stripe-auth
+ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:25:13-64:29
+category#android.intent.category.DEFAULT
+ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:28:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:29:17-78
+	android:name
+		ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:29:27-75
+activity#com.stripe.android.financialconnections.FinancialConnectionsSheetActivity
+ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:66:9-69:77
+	android:exported
+		ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:68:13-37
+	android:theme
+		ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:69:13-74
+	android:name
+		ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:67:13-101
+activity#com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity
+ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:70:9-74:58
+	android:windowSoftInputMode
+		ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:74:13-55
+	android:exported
+		ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:72:13-37
+	android:theme
+		ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:73:13-74
+	android:name
+		ADDED from [com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:71:13-110
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-9:38
+	android:maxSdkVersion
+		ADDED from [:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-35
+	android:name
+		ADDED from [:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-64
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:9-16:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-72
+	android:name
+		ADDED from [:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:21-69
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:27:13-51
+activity#com.stripe.android.paymentsheet.PaymentSheetActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:8:9-11:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:11:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:9:13-80
+activity#com.stripe.android.paymentsheet.PaymentOptionsActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:12:9-15:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:15:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:13:13-82
+activity#com.stripe.android.customersheet.CustomerSheetActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:16:9-19:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:18:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:19:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:17:13-82
+activity#com.stripe.android.paymentsheet.addresselement.AddressElementActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:20:9-23:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:22:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:21:13-97
+activity#com.stripe.android.paymentsheet.paymentdatacollection.bacs.BacsMandateConfirmationActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:24:9-27:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:27:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:25:13-118
+activity#com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:28:9-31:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:30:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:31:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:29:13-105
+activity#com.stripe.android.paymentsheet.ui.SepaMandateActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:32:9-35:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:34:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:35:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:33:13-82
+activity#com.stripe.android.paymentsheet.ExternalPaymentMethodProxyActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:36:9-39:68
+	android:exported
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:38:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:39:13-65
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:37:13-94
+activity#com.stripe.android.paymentsheet.paymentdatacollection.cvcrecollection.CvcRecollectionActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:40:9-42:69
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:42:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:41:13-121
+activity#com.stripe.android.paymentelement.embedded.form.FormActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:43:9-45:69
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:45:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:44:13-88
+activity#com.stripe.android.paymentelement.embedded.manage.ManageActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:46:9-48:69
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:48:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:47:13-92
+activity#com.stripe.android.link.LinkActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:49:9-56:58
+	android:label
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:54:13-48
+	android:autoRemoveFromRecents
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:51:13-49
+	android:windowSoftInputMode
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:56:13-55
+	android:exported
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:53:13-37
+	android:configChanges
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:52:13-115
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:55:13-55
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:50:13-64
+activity#com.stripe.android.link.LinkForegroundActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:57:9-62:61
+	android:launchMode
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:61:13-43
+	android:autoRemoveFromRecents
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:59:13-49
+	android:configChanges
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:60:13-115
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:62:13-58
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:58:13-74
+activity#com.stripe.android.link.LinkRedirectHandlerActivity
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:63:9-80:20
+	android:launchMode
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:67:13-48
+	android:autoRemoveFromRecents
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:65:13-49
+	android:exported
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:66:13-36
+	android:theme
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:68:13-58
+	android:name
+		ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:64:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:complete+data:path:/${applicationId}+data:scheme:link-popup
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:69:13-79:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:complete+data:path:/com.example.flutter_application_1+data:scheme:link-popup
+ADDED from [com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:69:13-79:29
+activity#com.stripe.android.ui.core.cardscan.CardScanActivity
+ADDED from [com.stripe:payments-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d4b6c3254461be95904f7e05eb5e6dd6/transformed/payments-ui-core-21.6.0/AndroidManifest.xml:8:9-11:69
+	android:exported
+		ADDED from [com.stripe:payments-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d4b6c3254461be95904f7e05eb5e6dd6/transformed/payments-ui-core-21.6.0/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [com.stripe:payments-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d4b6c3254461be95904f7e05eb5e6dd6/transformed/payments-ui-core-21.6.0/AndroidManifest.xml:11:13-66
+	android:name
+		ADDED from [com.stripe:payments-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d4b6c3254461be95904f7e05eb5e6dd6/transformed/payments-ui-core-21.6.0/AndroidManifest.xml:9:13-80
+package#com.android.chrome
+ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:11:9-54
+	android:name
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:11:18-51
+activity#com.stripe.android.view.PaymentAuthWebViewActivity
+ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:15:9-18:57
+	android:exported
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:17:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:18:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:16:13-78
+activity#com.stripe.android.view.PaymentRelayActivity
+ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:19:9-22:61
+	android:exported
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:21:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:22:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:20:13-72
+activity#com.stripe.android.payments.StripeBrowserLauncherActivity
+ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:28:9-32:61
+	android:launchMode
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:30:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:29:13-85
+activity#com.stripe.android.payments.StripeBrowserProxyReturnActivity
+ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:33:9-50:20
+	android:launchMode
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:36:13-44
+	android:exported
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:35:13-36
+	android:theme
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:37:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:34:13-88
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:payment_return_url+data:path:/${applicationId}+data:scheme:stripesdk
+ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:38:13-49:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:payment_return_url+data:path:/com.example.flutter_application_1+data:scheme:stripesdk
+ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:38:13-49:29
+activity#com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity
+ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:51:9-54:57
+	android:exported
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:53:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:54:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:52:13-114
+activity#com.stripe.android.googlepaylauncher.GooglePayLauncherActivity
+ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:55:9-58:66
+	android:exported
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:57:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:58:13-63
+	android:name
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:56:13-90
+activity#com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity
+ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:59:9-62:66
+	android:exported
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:61:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:62:13-63
+	android:name
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:60:13-103
+activity#com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity
+ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:63:9-66:68
+	android:exported
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:65:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:66:13-65
+	android:name
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:64:13-107
+activity#com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity
+ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:67:9-70:61
+	android:exported
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:69:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:70:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:68:13-97
+activity#com.stripe.android.stripe3ds2.views.ChallengeActivity
+ADDED from [com.stripe:stripe-3ds2-android:6.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4ee433822fe81a628098999b982bae0f/transformed/stripe-3ds2-android-6.2.0/AndroidManifest.xml:8:9-11:54
+	android:exported
+		ADDED from [com.stripe:stripe-3ds2-android:6.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4ee433822fe81a628098999b982bae0f/transformed/stripe-3ds2-android-6.2.0/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [com.stripe:stripe-3ds2-android:6.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4ee433822fe81a628098999b982bae0f/transformed/stripe-3ds2-android-6.2.0/AndroidManifest.xml:11:13-51
+	android:name
+		ADDED from [com.stripe:stripe-3ds2-android:6.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4ee433822fe81a628098999b982bae0f/transformed/stripe-3ds2-android-6.2.0/AndroidManifest.xml:9:13-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.stripe:stripe-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ddaa60cae3c5a3e83ba26b272dddb2e6/transformed/stripe-core-21.6.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.stripe:stripe-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ddaa60cae3c5a3e83ba26b272dddb2e6/transformed/stripe-core-21.6.0/AndroidManifest.xml:7:22-76
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a593296fa76ab1f04e83431ca3fdbaf0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a593296fa76ab1f04e83431ca3fdbaf0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fac3bdbb065ba11aedd38e2ea2c0656c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/fac3bdbb065ba11aedd38e2ea2c0656c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a593296fa76ab1f04e83431ca3fdbaf0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a593296fa76ab1f04e83431ca3fdbaf0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a593296fa76ab1f04e83431ca3fdbaf0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d81c4a2a9fcfd72de9ecf65f4940bcbf/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d81c4a2a9fcfd72de9ecf65f4940bcbf/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d81c4a2a9fcfd72de9ecf65f4940bcbf/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d81c4a2a9fcfd72de9ecf65f4940bcbf/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ca92e8ab9ef5e02151a6b800752907c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ca92e8ab9ef5e02151a6b800752907c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ca92e8ab9ef5e02151a6b800752907c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.flutter_application_1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.flutter_application_1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+meta-data#aia-compat-api-min-version
+ADDED from [com.google.android.instantapps:instantapps:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/42ac8ed7dbea9109a454e8d680e19f87/transformed/instantapps-1.1.0/AndroidManifest.xml:10:9-12:33
+	android:value
+		ADDED from [com.google.android.instantapps:instantapps:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/42ac8ed7dbea9109a454e8d680e19f87/transformed/instantapps-1.1.0/AndroidManifest.xml:12:13-30
+	android:name
+		ADDED from [com.google.android.instantapps:instantapps:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/42ac8ed7dbea9109a454e8d680e19f87/transformed/instantapps-1.1.0/AndroidManifest.xml:11:13-54
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:15:13-93

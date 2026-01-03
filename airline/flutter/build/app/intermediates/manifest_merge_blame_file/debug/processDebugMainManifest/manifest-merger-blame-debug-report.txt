@@ -1,0 +1,595 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_application_1"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/debug/AndroidManifest.xml:6:22-64
+16    <!--
+17     Required to query activities that can process text, see:
+18         https://developer.android.com/training/package-visibility and
+19         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+20
+21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+22    -->
+23    <queries>
+23-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:39:5-44:15
+24        <intent>
+24-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:40:9-43:18
+25            <action android:name="android.intent.action.PROCESS_TEXT" />
+25-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:41:13-72
+25-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:41:21-70
+26
+27            <data android:mimeType="text/plain" />
+27-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:13-50
+27-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:19-48
+28        </intent>
+29        <!-- Added to check the default browser that will host the AuthFlow. -->
+30        <intent>
+30-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:13:9-17:18
+31            <action android:name="android.intent.action.VIEW" />
+31-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:14:13-65
+31-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:14:21-62
+32
+33            <data android:scheme="http" />
+33-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:13-50
+34        </intent>
+35        <intent>
+35-->[:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:9-16:18
+36            <action android:name="android.intent.action.GET_CONTENT" />
+36-->[:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-72
+36-->[:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:21-69
+37
+38            <data android:mimeType="*/*" />
+38-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:13-50
+38-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:19-48
+39        </intent> <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+40        <package android:name="com.android.chrome" /> <!-- Needs to be explicitly declared on Android R+ -->
+40-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:11:9-54
+40-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:11:18-51
+41        <package android:name="com.google.android.apps.maps" />
+41-->[com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+41-->[com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+42    </queries>
+43
+44    <uses-permission
+44-->[:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-9:38
+45        android:name="android.permission.READ_EXTERNAL_STORAGE"
+45-->[:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-64
+46        android:maxSdkVersion="32" />
+46-->[:file_picker] /Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-35
+47    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+47-->[com.stripe:stripe-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ddaa60cae3c5a3e83ba26b272dddb2e6/transformed/stripe-core-21.6.0/AndroidManifest.xml:7:5-79
+47-->[com.stripe:stripe-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ddaa60cae3c5a3e83ba26b272dddb2e6/transformed/stripe-core-21.6.0/AndroidManifest.xml:7:22-76
+48
+49    <uses-feature
+49-->[com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+50        android:glEsVersion="0x00020000"
+50-->[com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+51        android:required="true" />
+51-->[com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+52
+53    <permission
+53-->[androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+54        android:name="com.example.flutter_application_1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+54-->[androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+55        android:protectionLevel="signature" />
+55-->[androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+56
+57    <uses-permission android:name="com.example.flutter_application_1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+57-->[androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+57-->[androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+58
+59    <application
+60        android:name="android.app.Application"
+61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+61-->[androidx.core:core:1.13.1] /Users/nagimaismailova/.gradle/caches/8.14/transforms/8cb437de8fdac72e2de918f9ee215ca3/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+62        android:debuggable="true"
+63        android:extractNativeLibs="false"
+64        android:icon="@mipmap/ic_launcher"
+65        android:label="flutter_application_1" >
+66        <activity
+67            android:name="com.example.flutter_application_1.MainActivity"
+68            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+69            android:exported="true"
+70            android:hardwareAccelerated="true"
+71            android:launchMode="singleTop"
+72            android:taskAffinity=""
+73            android:theme="@style/LaunchTheme"
+74            android:windowSoftInputMode="adjustResize" >
+75
+76            <!--
+77                 Specifies an Android theme to apply to this Activity as soon as
+78                 the Android process has started. This theme is visible to the user
+79                 while the Flutter UI initializes. After that, this theme continues
+80                 to determine the Window background behind the Flutter UI.
+81            -->
+82            <meta-data
+83                android:name="io.flutter.embedding.android.NormalTheme"
+84                android:resource="@style/NormalTheme" />
+85
+86            <intent-filter>
+87                <action android:name="android.intent.action.MAIN" />
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+90            </intent-filter>
+91        </activity>
+92        <!--
+93             Don't delete the meta-data below.
+94             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+95        -->
+96        <meta-data
+97            android:name="flutterEmbedding"
+98            android:value="2" />
+99
+100        <activity
+100-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:21:9-65:20
+101            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity"
+101-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:22:13-109
+102            android:exported="true"
+102-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:23:13-36
+103            android:launchMode="singleTask" >
+103-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:24:13-44
+104            <intent-filter>
+104-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:25:13-64:29
+105                <action android:name="android.intent.action.VIEW" />
+105-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:14:13-65
+105-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:14:21-62
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:28:17-76
+107-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:28:27-73
+108                <category android:name="android.intent.category.BROWSABLE" />
+108-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:29:17-78
+108-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:29:27-75
+109
+110                <!-- Returning from app2app: return_url is triggered to reopen web AuthFlow and poll accounts. -->
+111                <data
+111-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:13-50
+112                    android:host="link-accounts"
+113                    android:pathPrefix="/com.example.flutter_application_1/authentication_return"
+114                    android:scheme="stripe-auth" />
+115
+116                <!-- Returning from app2app: return_url is triggered to reopen native AuthFlow and poll accounts. -->
+117                <data
+117-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:13-50
+118                    android:host="link-native-accounts"
+119                    android:pathPrefix="/com.example.flutter_application_1/authentication_return"
+120                    android:scheme="stripe-auth" />
+121
+122                <!-- End of web AuthFlow success and cancel URIs that begin with "stripe-auth://link-accounts/{app-id}/...” -->
+123                <data
+123-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:13-50
+124                    android:host="link-accounts"
+125                    android:path="/com.example.flutter_application_1/success"
+126                    android:scheme="stripe-auth" />
+127                <data
+127-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:13-50
+128                    android:host="link-accounts"
+129                    android:path="/com.example.flutter_application_1/cancel"
+130                    android:scheme="stripe-auth" />
+131
+132                <!-- Opening app2app: Web flow triggers stripe-auth://native-redirect/{app-id}/http://web-that-redirects-to-native -->
+133                <data
+133-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:13-50
+134                    android:host="native-redirect"
+135                    android:pathPrefix="/com.example.flutter_application_1"
+136                    android:scheme="stripe-auth" />
+137
+138                <!-- Accepts success/cancel/fail URIs that begin with "stripe://auth-redirect” -->
+139                <data
+139-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:13-50
+140                    android:host="auth-redirect"
+141                    android:pathPrefix="/com.example.flutter_application_1"
+142                    android:scheme="stripe" />
+143            </intent-filter>
+144        </activity>
+145        <activity
+145-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:66:9-69:77
+146            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity"
+146-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:67:13-101
+147            android:exported="false"
+147-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:68:13-37
+148            android:theme="@style/StripeFinancialConnectionsDefaultTheme" />
+148-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:69:13-74
+149        <activity
+149-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:70:9-74:58
+150            android:name="com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity"
+150-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:71:13-110
+151            android:exported="false"
+151-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:72:13-37
+152            android:theme="@style/StripeFinancialConnectionsDefaultTheme"
+152-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:73:13-74
+153            android:windowSoftInputMode="adjustResize" />
+153-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:74:13-55
+154
+155        <uses-library
+155-->[androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:23:9-25:40
+156            android:name="androidx.window.extensions"
+156-->[androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:24:13-54
+157            android:required="false" />
+157-->[androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:25:13-37
+158        <uses-library
+158-->[androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:26:9-28:40
+159            android:name="androidx.window.sidecar"
+159-->[androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:27:13-51
+160            android:required="false" />
+160-->[androidx.window:window:1.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/7217e782825a2d4d49e286a23835439b/transformed/window-1.2.0/AndroidManifest.xml:28:13-37
+161
+162        <activity
+162-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:8:9-11:69
+163            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+163-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:9:13-80
+164            android:exported="false"
+164-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:10:13-37
+165            android:theme="@style/StripePaymentSheetDefaultTheme" />
+165-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:11:13-66
+166        <activity
+166-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:12:9-15:69
+167            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+167-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:13:13-82
+168            android:exported="false"
+168-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:14:13-37
+169            android:theme="@style/StripePaymentSheetDefaultTheme" />
+169-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:15:13-66
+170        <activity
+170-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:16:9-19:69
+171            android:name="com.stripe.android.customersheet.CustomerSheetActivity"
+171-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:17:13-82
+172            android:exported="false"
+172-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:18:13-37
+173            android:theme="@style/StripePaymentSheetDefaultTheme" />
+173-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:19:13-66
+174        <activity
+174-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:20:9-23:69
+175            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+175-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:21:13-97
+176            android:exported="false"
+176-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:22:13-37
+177            android:theme="@style/StripePaymentSheetDefaultTheme" />
+177-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:23:13-66
+178        <activity
+178-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:24:9-27:69
+179            android:name="com.stripe.android.paymentsheet.paymentdatacollection.bacs.BacsMandateConfirmationActivity"
+179-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:25:13-118
+180            android:exported="false"
+180-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:26:13-37
+181            android:theme="@style/StripePaymentSheetDefaultTheme" />
+181-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:27:13-66
+182        <activity
+182-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:28:9-31:69
+183            android:name="com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity"
+183-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:29:13-105
+184            android:exported="false"
+184-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:30:13-37
+185            android:theme="@style/StripePaymentSheetDefaultTheme" />
+185-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:31:13-66
+186        <activity
+186-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:32:9-35:69
+187            android:name="com.stripe.android.paymentsheet.ui.SepaMandateActivity"
+187-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:33:13-82
+188            android:exported="false"
+188-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:34:13-37
+189            android:theme="@style/StripePaymentSheetDefaultTheme" />
+189-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:35:13-66
+190        <activity
+190-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:36:9-39:68
+191            android:name="com.stripe.android.paymentsheet.ExternalPaymentMethodProxyActivity"
+191-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:37:13-94
+192            android:exported="false"
+192-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:38:13-37
+193            android:theme="@style/StripePayLauncherDefaultTheme" />
+193-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:39:13-65
+194        <activity
+194-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:40:9-42:69
+195            android:name="com.stripe.android.paymentsheet.paymentdatacollection.cvcrecollection.CvcRecollectionActivity"
+195-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:41:13-121
+196            android:theme="@style/StripePaymentSheetDefaultTheme" />
+196-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:42:13-66
+197        <activity
+197-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:43:9-45:69
+198            android:name="com.stripe.android.paymentelement.embedded.form.FormActivity"
+198-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:44:13-88
+199            android:theme="@style/StripePaymentSheetDefaultTheme" />
+199-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:45:13-66
+200        <activity
+200-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:46:9-48:69
+201            android:name="com.stripe.android.paymentelement.embedded.manage.ManageActivity"
+201-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:47:13-92
+202            android:theme="@style/StripePaymentSheetDefaultTheme" />
+202-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:48:13-66
+203        <activity
+203-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:49:9-56:58
+204            android:name="com.stripe.android.link.LinkActivity"
+204-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:50:13-64
+205            android:autoRemoveFromRecents="true"
+205-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:51:13-49
+206            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"
+206-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:52:13-115
+207            android:exported="false"
+207-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:53:13-37
+208            android:label="@string/stripe_link"
+208-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:54:13-48
+209            android:theme="@style/StripeLinkBaseTheme"
+209-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:55:13-55
+210            android:windowSoftInputMode="adjustResize" />
+210-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:56:13-55
+211        <activity
+211-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:57:9-62:61
+212            android:name="com.stripe.android.link.LinkForegroundActivity"
+212-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:58:13-74
+213            android:autoRemoveFromRecents="true"
+213-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:59:13-49
+214            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"
+214-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:60:13-115
+215            android:launchMode="singleTop"
+215-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:61:13-43
+216            android:theme="@style/StripeTransparentTheme" />
+216-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:62:13-58
+217        <activity
+217-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:63:9-80:20
+218            android:name="com.stripe.android.link.LinkRedirectHandlerActivity"
+218-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:64:13-79
+219            android:autoRemoveFromRecents="true"
+219-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:65:13-49
+220            android:exported="true"
+220-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:66:13-36
+221            android:launchMode="singleInstance"
+221-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:67:13-48
+222            android:theme="@style/StripeTransparentTheme" >
+222-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:68:13-58
+223            <intent-filter>
+223-->[com.stripe:paymentsheet:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/df4e8bd09adff892bffde89a12328cef/transformed/paymentsheet-21.6.0/AndroidManifest.xml:69:13-79:29
+224                <action android:name="android.intent.action.VIEW" />
+224-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:14:13-65
+224-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:14:21-62
+225
+226                <category android:name="android.intent.category.DEFAULT" />
+226-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:28:17-76
+226-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:28:27-73
+227                <category android:name="android.intent.category.BROWSABLE" />
+227-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:29:17-78
+227-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:29:27-75
+228
+229                <data
+229-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:13-50
+230                    android:host="complete"
+231                    android:path="/com.example.flutter_application_1"
+232                    android:scheme="link-popup" />
+233            </intent-filter>
+234        </activity>
+235        <activity
+235-->[com.stripe:payments-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d4b6c3254461be95904f7e05eb5e6dd6/transformed/payments-ui-core-21.6.0/AndroidManifest.xml:8:9-11:69
+236            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+236-->[com.stripe:payments-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d4b6c3254461be95904f7e05eb5e6dd6/transformed/payments-ui-core-21.6.0/AndroidManifest.xml:9:13-80
+237            android:exported="false"
+237-->[com.stripe:payments-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d4b6c3254461be95904f7e05eb5e6dd6/transformed/payments-ui-core-21.6.0/AndroidManifest.xml:10:13-37
+238            android:theme="@style/StripePaymentSheetDefaultTheme" />
+238-->[com.stripe:payments-ui-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d4b6c3254461be95904f7e05eb5e6dd6/transformed/payments-ui-core-21.6.0/AndroidManifest.xml:11:13-66
+239        <activity
+239-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:15:9-18:57
+240            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+240-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:16:13-78
+241            android:exported="false"
+241-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:17:13-37
+242            android:theme="@style/StripeDefaultTheme" />
+242-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:18:13-54
+243        <activity
+243-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:19:9-22:61
+244            android:name="com.stripe.android.view.PaymentRelayActivity"
+244-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:20:13-72
+245            android:exported="false"
+245-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:21:13-37
+246            android:theme="@style/StripeTransparentTheme" />
+246-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:22:13-58
+247        <!--
+248        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+249        launched the browser Activity will also handle the return URL deep link.
+250        -->
+251        <activity
+251-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:28:9-32:61
+252            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+252-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:29:13-85
+253            android:exported="false"
+253-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:30:13-37
+254            android:launchMode="singleTask"
+254-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:31:13-44
+255            android:theme="@style/StripeTransparentTheme" />
+255-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:32:13-58
+256        <activity
+256-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:33:9-50:20
+257            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+257-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:34:13-88
+258            android:exported="true"
+258-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:35:13-36
+259            android:launchMode="singleTask"
+259-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:36:13-44
+260            android:theme="@style/StripeTransparentTheme" >
+260-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:37:13-58
+261            <intent-filter>
+261-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:38:13-49:29
+262                <action android:name="android.intent.action.VIEW" />
+262-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:14:13-65
+262-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:14:21-62
+263
+264                <category android:name="android.intent.category.DEFAULT" />
+264-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:28:17-76
+264-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:28:27-73
+265                <category android:name="android.intent.category.BROWSABLE" />
+265-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:29:17-78
+265-->[com.stripe:financial-connections:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/380cbdcb1fbac7ce5a9adb350cded863/transformed/financial-connections-21.6.0/AndroidManifest.xml:29:27-75
+266
+267                <!-- Must match `DefaultReturnUrl#value`. -->
+268                <data
+268-->/Users/nagimaismailova/Documents/GitHub/ibro-check/airline/flutter/android/app/src/main/AndroidManifest.xml:42:13-50
+269                    android:host="payment_return_url"
+270                    android:path="/com.example.flutter_application_1"
+271                    android:scheme="stripesdk" />
+272            </intent-filter>
+273        </activity>
+274        <activity
+274-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:51:9-54:57
+275            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+275-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:52:13-114
+276            android:exported="false"
+276-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:53:13-37
+277            android:theme="@style/StripeDefaultTheme" />
+277-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:54:13-54
+278        <activity
+278-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:55:9-58:66
+279            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+279-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:56:13-90
+280            android:exported="false"
+280-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:57:13-37
+281            android:theme="@style/StripeGooglePayDefaultTheme" />
+281-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:58:13-63
+282        <activity
+282-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:59:9-62:66
+283            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+283-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:60:13-103
+284            android:exported="false"
+284-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:61:13-37
+285            android:theme="@style/StripeGooglePayDefaultTheme" />
+285-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:62:13-63
+286        <activity
+286-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:63:9-66:68
+287            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+287-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:64:13-107
+288            android:exported="false"
+288-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:65:13-37
+289            android:theme="@style/StripePayLauncherDefaultTheme" />
+289-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:66:13-65
+290        <activity
+290-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:67:9-70:61
+291            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+291-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:68:13-97
+292            android:exported="false"
+292-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:69:13-37
+293            android:theme="@style/StripeTransparentTheme" />
+293-->[com.stripe:payments-core:21.6.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/c71b6e6b6181daa20968b75b354035c3/transformed/payments-core-21.6.0/AndroidManifest.xml:70:13-58
+294        <activity
+294-->[com.stripe:stripe-3ds2-android:6.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4ee433822fe81a628098999b982bae0f/transformed/stripe-3ds2-android-6.2.0/AndroidManifest.xml:8:9-11:54
+295            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+295-->[com.stripe:stripe-3ds2-android:6.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4ee433822fe81a628098999b982bae0f/transformed/stripe-3ds2-android-6.2.0/AndroidManifest.xml:9:13-81
+296            android:exported="false"
+296-->[com.stripe:stripe-3ds2-android:6.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4ee433822fe81a628098999b982bae0f/transformed/stripe-3ds2-android-6.2.0/AndroidManifest.xml:10:13-37
+297            android:theme="@style/Stripe3DS2Theme" />
+297-->[com.stripe:stripe-3ds2-android:6.2.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/4ee433822fe81a628098999b982bae0f/transformed/stripe-3ds2-android-6.2.0/AndroidManifest.xml:11:13-51
+298
+299        <provider
+299-->[androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+300            android:name="androidx.startup.InitializationProvider"
+300-->[androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+301            android:authorities="com.example.flutter_application_1.androidx-startup"
+301-->[androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+302            android:exported="false" >
+302-->[androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+303            <meta-data
+303-->[androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+304                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+304-->[androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+305                android:value="androidx.startup" />
+305-->[androidx.emoji2:emoji2:1.3.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/92d44b21c3067366bfc987836b4a8d92/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+306            <meta-data
+306-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a593296fa76ab1f04e83431ca3fdbaf0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+307                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+307-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a593296fa76ab1f04e83431ca3fdbaf0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+308                android:value="androidx.startup" />
+308-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a593296fa76ab1f04e83431ca3fdbaf0/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+309            <meta-data
+309-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+310                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+310-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+311                android:value="androidx.startup" />
+311-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+312        </provider> <!-- Needs to be explicitly declared on P+ -->
+313        <uses-library
+313-->[com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+314            android:name="org.apache.http.legacy"
+314-->[com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+315            android:required="false" />
+315-->[com.google.android.gms:play-services-maps:18.0.2] /Users/nagimaismailova/.gradle/caches/8.14/transforms/652ee95554ea4fd7ee305ebe128ec4c9/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+316
+317        <activity
+317-->[com.google.android.gms:play-services-base:18.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d81c4a2a9fcfd72de9ecf65f4940bcbf/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+318            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+318-->[com.google.android.gms:play-services-base:18.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d81c4a2a9fcfd72de9ecf65f4940bcbf/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+319            android:exported="false"
+319-->[com.google.android.gms:play-services-base:18.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d81c4a2a9fcfd72de9ecf65f4940bcbf/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+320            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+320-->[com.google.android.gms:play-services-base:18.5.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/d81c4a2a9fcfd72de9ecf65f4940bcbf/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+321
+322        <meta-data
+322-->[com.google.android.gms:play-services-basement:18.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ca92e8ab9ef5e02151a6b800752907c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+323            android:name="com.google.android.gms.version"
+323-->[com.google.android.gms:play-services-basement:18.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ca92e8ab9ef5e02151a6b800752907c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+324            android:value="@integer/google_play_services_version" />
+324-->[com.google.android.gms:play-services-basement:18.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/ca92e8ab9ef5e02151a6b800752907c0/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+325
+326        <receiver
+326-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+327            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+327-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+328            android:directBootAware="false"
+328-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+329            android:enabled="true"
+329-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+330            android:exported="true"
+330-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+331            android:permission="android.permission.DUMP" >
+331-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+332            <intent-filter>
+332-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+333                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+333-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+333-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+334            </intent-filter>
+335            <intent-filter>
+335-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+336                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+336-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+336-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+337            </intent-filter>
+338            <intent-filter>
+338-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+339                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+339-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+339-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+340            </intent-filter>
+341            <intent-filter>
+341-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+342                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+342-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+342-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/a9cd928dbb32cb97d269fd14b2717658/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+343            </intent-filter>
+344        </receiver>
+345
+346        <meta-data
+346-->[com.google.android.instantapps:instantapps:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/42ac8ed7dbea9109a454e8d680e19f87/transformed/instantapps-1.1.0/AndroidManifest.xml:10:9-12:33
+347            android:name="aia-compat-api-min-version"
+347-->[com.google.android.instantapps:instantapps:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/42ac8ed7dbea9109a454e8d680e19f87/transformed/instantapps-1.1.0/AndroidManifest.xml:11:13-54
+348            android:value="1" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+348-->[com.google.android.instantapps:instantapps:1.1.0] /Users/nagimaismailova/.gradle/caches/8.14/transforms/42ac8ed7dbea9109a454e8d680e19f87/transformed/instantapps-1.1.0/AndroidManifest.xml:12:13-30
+349        <activity
+349-->[com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:14:9-18:65
+350            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+350-->[com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:15:13-93
+351            android:exported="false"
+351-->[com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:16:13-37
+352            android:stateNotNeeded="true"
+352-->[com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:17:13-42
+353            android:theme="@style/Theme.PlayCore.Transparent" />
+353-->[com.google.android.play:core-common:2.0.4] /Users/nagimaismailova/.gradle/caches/8.14/transforms/03929dd196dbe31645cd3f4c392109c5/transformed/core-common-2.0.4/AndroidManifest.xml:18:13-62
+354    </application>
+355
+356</manifest>
