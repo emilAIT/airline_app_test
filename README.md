@@ -1,32 +1,71 @@
-## airline app 2026 test for AIT solutions
+## AltynAirProject
+# Altyn Air - Airline Booking & Operations System
+my AITS entrance exam projects about Airlanes
 
-you need to create a new branch and create pull request
-along with 
-- flutter and backend codebases in both folders
-- instructions on how to run the code
-- url to the demo video
+A comprehensive mini airline platform featuring a **FastAPI backend** and a **Flutter mobile application**. This project mimics real-world airline systems like Turkish Airlines.
 
-## how to create a pull request
-open terminal in visual studio or CMD 
+---
 
-```> git clone https://github.com/emilAIT/airline_app_test.git```
+## 📺 Demonstration Video
+**[Click here to watch the 2-minute project demo]**
 
-```> cd airline_app_test```
+https://www.youtube.com/shorts/N_eJijP9OiQ 
+---
 
-```> git checkout -b <your-name>```
+## 🚀 Submission Components
 
-(for example ``` git checkout -b emil ```)
+### 1. Mobile Application (Flutter)
+- **Folder**: `/app`
+- **Key Features**: 
+  - Multi-passenger booking & seat selection.
+  - Interactive seat map with seat categories.
+  - QR-coded boarding passes after check-in.
+  - Notification system for real-time flight updates.
+  - Role-based login (Passenger & Staff).
 
-- update README.md file with instructions above
-- copy flutter code to `airline_app_test/app` folder
-- copy backend code to `airline_app_test/backend` code
-  
-```> git add .```
+### 2. Backend API (FastAPI)
+- **Folder**: `/backend`
+- **Database**: SQLite (`airline.db`) included with pre-seeded data.
+- **Key Features**:
+  - JWT Authentication & RBAC.
+  - Automated flight status transitions & announcement triggers.
+  - 10-minute automated seat hold logic.
+  - Idempotent payment processing.
+  - Full OpenAPI/Swagger documentation at `/docs`.
 
-```> git commit -am '<your-name>'```
+---
 
-```> git push origin head```
+## 🛠 Quick Start Guide
 
+### Step 1: Run the Backend
+1. Go to the backend directory: `cd backend`
+2. Install dependencies: `pip install -r requirements.txt` (or manually install `fastapi`, `uvicorn`, `sqlalchemy`)
+3. Run the server: `python main.py` or `uvicorn main:app --reload`
+4. Verify: Open [http://localhost:8000/docs](http://localhost:8000/docs)
 
+### Step 2: Configure & Run the App
+1. Go to the app directory: `cd app`
+2. Configure API connection in `lib/core/config/app_config.dart` (ensure IP matches your machine if using physical device).
+3. Run: `flutter pub get` then `flutter run`
 
+---
+
+## 🔐 Credentials (Pre-seeded)
+
+### Staff / Admin
+- **Email**: `admin@aits.com`
+- **Password**: `admin123`
+
+### Test Passenger
+- **Email**: `user@example.com`
+- **Password**: `user123`
+### Test Passenger
+- **Email**: `goldenmoonalt@gmail.com`
+- **Password**: `21062007`
+---
+
+## 📂 Repository Structure
+- `/app`: Source code for the Flutter mobile application.
+- `/backend`: Source code for the FastAPI server and database.
+- `README.md`: This overview file.
 
