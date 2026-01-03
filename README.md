@@ -1,32 +1,23 @@
-## airline app 2026 test for AIT solutions
+# Airline Booking & Operations System
 
-you need to create a new branch and create pull request
-along with 
-- flutter and backend codebases in both folders
-- instructions on how to run the code
-- url to the demo video
+Full-stack airline booking application with FastAPI backend and Flutter mobile app.
 
-## how to create a pull request
-open terminal in visual studio or CMD 
+## Link to YouTube Video
 
-```> git clone https://github.com/emilAIT/airline_app_test.git```
+https://youtube.com/shorts/OP-qGQgHiiQ?feature=share
 
-```> cd airline_app_test```
+## Project Structure
 
-```> git checkout -b <your-name>```
+- **[Backend (FastAPI)](./backend/README.md)** - API, SQLite database, JWT authentication
+- **[Frontend (Flutter)](./frontend/README.md)** - Mobile app for passengers and staff
 
-(for example ``` git checkout -b emil ```)
+## Features
 
-- update README.md file with instructions above
-- copy flutter code to `airline_app_test/app` folder
-- copy backend code to `airline_app_test/backend` code
-  
-```> git add .```
+- **Passenger**: Flight search, seat booking, mock payment, check-in, boarding pass with QR
+- **Staff**: Manage flights/airplanes, announcements, bookings, seat reassignments
+- **Modern UI**: Material 3 theme, visual seat selection, digital boarding passes
 
-```> git commit -am '<your-name>'```
+## Quick Start
 
-```> git push origin head```
-
-
-
-
+1. **Backend**: See [backend/README.md](./backend/README.md)
+2. **Frontend**: See [frontend/README.md](./frontend/README.md)
