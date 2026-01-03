@@ -1,0 +1,2 @@
+// Booking state placeholder
+

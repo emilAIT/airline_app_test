@@ -1,0 +1,2 @@
+// Trips controller placeholder
+

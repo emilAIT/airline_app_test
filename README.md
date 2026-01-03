@@ -1,32 +1,15 @@
-## airline app 2026 test for AIT solutions
+# Airline Booking & Operations System
 
-you need to create a new branch and create pull request
-along with 
-- flutter and backend codebases in both folders
-- instructions on how to run the code
-- url to the demo video
+FastAPI backend + Flutter mobile app for airline booking and operations management.
 
-## how to create a pull request
-open terminal in visual studio or CMD 
+Video: https://youtube.com/shorts/3Qv0YnjkAow?feature=share
 
-```> git clone https://github.com/emilAIT/airline_app_test.git```
+**Test Credentials:**
+- Passenger: `passenger@test.com` / `pass123`
+- Staff: `staff@airline.com` / `staff123`
 
-```> cd airline_app_test```
+## Tech Stack
 
-```> git checkout -b <your-name>```
-
-(for example ``` git checkout -b emil ```)
-
-- update README.md file with instructions above
-- copy flutter code to `airline_app_test/app` folder
-- copy backend code to `airline_app_test/backend` code
-  
-```> git add .```
-
-```> git commit -am '<your-name>'```
-
-```> git push origin head```
-
-
-
-
+- Backend: FastAPI, SQLite, SQLAlchemy, JWT
+- Frontend: Flutter, Provider, qr_flutter
+- API Docs: Swagger/OpenAPI at `/docs`

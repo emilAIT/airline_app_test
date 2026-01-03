@@ -1,0 +1,2 @@
+// Check-in state placeholder
+

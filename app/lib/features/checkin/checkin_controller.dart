@@ -1,0 +1,2 @@
+// Check-in controller placeholder
+

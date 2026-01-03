@@ -1,0 +1,2 @@
+// Staff bookings controller placeholder
+
