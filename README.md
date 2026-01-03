@@ -1,129 +1,58 @@
-<<<<<<< HEAD
-## airline app 2026 test for AIT solutions
+# Airplane Booking & Operations System
 
-you need to create a new branch and create pull request
-along with 
-- flutter and backend codebases in both folders
-- instructions on how to run the code
-- url to the demo video
+A modern, full-stack airline management application built with **FastAPI** (Backend) and **Flutter** (Frontend).
 
-## how to create a pull request
-open terminal in visual studio or CMD 
+## 🚀 Working Features
 
-```> git clone https://github.com/emilAIT/airline_app_test.git```
+### 👤 Passenger Features
+- **Secure Authentication**: User registration and login powered by OAuth2 and JWT tokens.
+- **Flight Search**: Search for available flights by origin, destination, and date.
+- **Interactive Seat Selection**: 
+  - Real-time seat map visualization.
+  - Temporary seat hold mechanism to prevent double booking.
+- **Complete Booking Flow**:
+  - Seamless seat selection and booking creation.
+  - Integrated payment mockup with success redirection.
+  - Automated post-payment navigation back to Home.
+- **My Trips Dashboard**:
+  - View full booking history with real-time data.
+  - Details include PNR code, Route, and Booking Status.
+- **Digital Boarding Pass**:
+  - View specific seat assignments, flight numbers, and gate information.
+  - Generated QR code for check-in verification.
+- **Airport & Flight Discovery**: Browse comprehensive lists of all supported airports and available flights.
+- **Announcements**: Stay informed with global and flight-specific real-time announcements.
 
-```> cd airline_app_test```
+### 🛠️ Staff & Management Features
+- **Staff Dashboard**: Centralized hub for airline operations.
+- **Flight Management**: Tools to manage and monitor scheduled flights.
+- **Announcement Management**: Create and broadcast global or flight-specific updates to passengers.
 
-```> git checkout -b <your-name>```
+### ⚙️ Backend & System Features
+- **Scalable Architecture**: Built with FastAPI for high performance.
+- **Robust Database**: SQLAlchemy integration with SQLite for reliable data persistence.
+- **CORS Support**: Fully configured for secure web communication.
+- **Global Error Handling**: Standardized API responses with comprehensive error reporting for a smooth frontend experience.
+- **Clean API Design**: RESTful endpoints with consistent trailing-slash handling.
 
-(for example ``` git checkout -b emil ```)
+## 🛠️ Technology Stack
+- **Frontend**: Flutter (Mobile & Web)
+- **Backend**: FastAPI (Python 3.10+)
+- **Database**: SQLAlchemy & SQLite
+- **Authentication**: JWT & OAuth2
+- **Styling**: Vanilla CSS (Web) & Material Design 3 (Flutter)
 
-- update README.md file with instructions above
-- copy flutter code to `airline_app_test/app` folder
-- copy backend code to `airline_app_test/backend` code
-  
-```> git add .```
+## 🚦 How to Run
 
-```> git commit -am '<your-name>'```
+### Backend
+1. Navigate to `backend/`.
+2. Install dependencies: `pip install -r requirements.txt`.
+3. Run the server: `python main.py`.
 
-```> git push origin head```
+### Frontend
+1. Navigate to `frontend/`.
+2. Get packages: `flutter pub get`.
+3. Run the app: `flutter run -d chrome --web-port=8080` (or your preferred device).
 
-
-
-
-=======
-# Aero Premier - Airline Mobile Application
-
-A production-grade mobile flight booking application built with Flutter, designed to deliver a premium user experience comparable to leading international carriers. The project features a complete passenger flow from authentication to digital boarding pass generation, backed by a FastAPI microservice architecture.
-
-## Overview
-
-Aero Premier demonstrates a modern, scalable approach to airline app development. It prioritizes clean architecture, polished UI/UX, and robust engineering practices. The application adheres to Material 3 design principles while maintaining a distinct, luxury brand identity.
-
-## key Features
-
-### Mobile App (Flutter)
-- **Fluid Navigation**: Seamless transition between screens using standard Flutter navigation patterns.
-- **Premium Design System**: Custom theming with a refined color palette, Manrope typography, and consistent component hierarchy.
-- **Detailed Flight Search**: Advanced search capability with date selection, passenger counts, and class filters.
-- **Rich Results & Details**: Comprehensive flight cards and detailed itinerary views including amenity info.
-- **Passenger Management**: Secure handling of passenger data and passport information.
-- **Digital Boarding Pass**: Generation of QR-enabled boarding passes compatible with mobile wallets.
-
-### Backend API (FastAPI)
-- **Secure Authentication**: JWT-based auth flow (Login/Register) ensuring secure session management.
-- **Flight Inventory**: Endpoints for searching flights based on origin, destination, and date.
-- **Booking Engine**: Logic to create bookings, calculate pricing, and manage passenger manifests.
-- **Payment Processing**: Mock payment gateway integration for simulating transactions.
-- **SQLite Database**: Lightweight, zero-config persistence layer suitable for MVP and testing.
-
-## Technology Stack
-
-- **Frontend**: Flutter (Dart)
-- **Backend**: FastAPI (Python)
-- **Database**: SQLite / SQLAlchemy
-- **Authentication**: OAuth2 / JWT
-- **Design**: Material 3 / Google Fonts
-
-## Project Structure
-
-```
-emil-airlines/
-├── lib/                        # Flutter App Source
-│   ├── main.dart               # Entry point
-│   ├── booking_summary_screen.dart
-│   ├── login_screen.dart
-│   ├── flight_search_screen.dart
-│   └── ... (screen widget)
-├── backend/                    # FastAPI Backend Source
-│   ├── main.py                 # API Routes
-│   ├── models.py               # ORM Models
-│   ├── schemas.py              # Pydantic Schemas
-│   ├── security.py             # Auth Utilities
-│   └── database.py             # DB Session 
-```
-
-## Getting Started
-
-### Prerequisites
-- Flutter SDK (3.0+)
-- Python (3.9+)
-
-### Running the Backend
-
-1. Navigate to the backend directory:
-   ```bash
-   cd backend
-   ```
-2. Install dependencies (recommended to use venv):
-   ```bash
-   pip install fastapi uvicorn sqlalchemy pydantic passlib python-jose[cryptography]
-   ```
-3. Start the server:
-   ```bash
-   uvicorn main:app --reload
-   ```
-   The API will be available at `http://127.0.0.1:8000`.
-
-### Running the Mobile App
-
-1. Navigate to the root directory:
-   ```bash
-   flutter pub get
-   ```
-2. Run on your preferred emulator or device:
-   ```bash
-   flutter run
-   ```
-
-## Future Roadmap
-
-- [ ] **Seat Map Visualization**: Interactive seat selection with vector graphics.
-- [ ] **Real-world Payment Integration**: Stripe or PayPal implementation.
-- [ ] **Push Notifications**: Real-time updates for flight status changes.
-- [ ] **Check-in Flow**: Automated check-in process 24h prior to departure.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
->>>>>>> emil-final
+### Video
+link: https://drive.google.com/drive/folders/1jNLiExeyJ74gjnUcBsaodSDGE2o3iggm
