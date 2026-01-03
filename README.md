@@ -1,129 +1,112 @@
-<<<<<<< HEAD
-## airline app 2026 test for AIT solutions
+Aero Premier – Airline Mobile Application
 
-you need to create a new branch and create pull request
-along with 
-- flutter and backend codebases in both folders
-- instructions on how to run the code
-- url to the demo video
+A Flutter-based airline booking mobile application developed as part of the AIT Solutions technical test.
+The project demonstrates a complete booking flow supported by a FastAPI backend.
 
-## how to create a pull request
-open terminal in visual studio or CMD 
+Overview
 
-```> git clone https://github.com/emilAIT/airline_app_test.git```
+Aero Premier provides a clean and structured airline booking experience, including:
 
-```> cd airline_app_test```
+Flight search
 
-```> git checkout -b <your-name>```
+Passenger information
 
-(for example ``` git checkout -b emil ```)
+Booking summary
 
-- update README.md file with instructions above
-- copy flutter code to `airline_app_test/app` folder
-- copy backend code to `airline_app_test/backend` code
-  
-```> git add .```
+Boarding pass flow
 
-```> git commit -am '<your-name>'```
+Key Features
+Mobile App (Flutter)
 
-```> git push origin head```
+Flight search and results
 
+Flight details and booking summary
 
+Passenger information input
 
+Seat selection
 
-=======
-# Aero Premier - Airline Mobile Application
+Mock payment flow
 
-A production-grade mobile flight booking application built with Flutter, designed to deliver a premium user experience comparable to leading international carriers. The project features a complete passenger flow from authentication to digital boarding pass generation, backed by a FastAPI microservice architecture.
+Boarding pass screen
 
-## Overview
+Backend API (FastAPI)
 
-Aero Premier demonstrates a modern, scalable approach to airline app development. It prioritizes clean architecture, polished UI/UX, and robust engineering practices. The application adheres to Material 3 design principles while maintaining a distinct, luxury brand identity.
+JWT-based authentication
 
-## key Features
+Flight inventory endpoints
 
-### Mobile App (Flutter)
-- **Fluid Navigation**: Seamless transition between screens using standard Flutter navigation patterns.
-- **Premium Design System**: Custom theming with a refined color palette, Manrope typography, and consistent component hierarchy.
-- **Detailed Flight Search**: Advanced search capability with date selection, passenger counts, and class filters.
-- **Rich Results & Details**: Comprehensive flight cards and detailed itinerary views including amenity info.
-- **Passenger Management**: Secure handling of passenger data and passport information.
-- **Digital Boarding Pass**: Generation of QR-enabled boarding passes compatible with mobile wallets.
+Booking logic
 
-### Backend API (FastAPI)
-- **Secure Authentication**: JWT-based auth flow (Login/Register) ensuring secure session management.
-- **Flight Inventory**: Endpoints for searching flights based on origin, destination, and date.
-- **Booking Engine**: Logic to create bookings, calculate pricing, and manage passenger manifests.
-- **Payment Processing**: Mock payment gateway integration for simulating transactions.
-- **SQLite Database**: Lightweight, zero-config persistence layer suitable for MVP and testing.
+SQLite database
 
-## Technology Stack
+Technology Stack
 
-- **Frontend**: Flutter (Dart)
-- **Backend**: FastAPI (Python)
-- **Database**: SQLite / SQLAlchemy
-- **Authentication**: OAuth2 / JWT
-- **Design**: Material 3 / Google Fonts
+Frontend: Flutter (Dart)
 
-## Project Structure
+Backend: FastAPI (Python)
 
-```
-emil-airlines/
-├── lib/                        # Flutter App Source
-│   ├── main.dart               # Entry point
-│   ├── booking_summary_screen.dart
-│   ├── login_screen.dart
-│   ├── flight_search_screen.dart
-│   └── ... (screen widget)
-├── backend/                    # FastAPI Backend Source
-│   ├── main.py                 # API Routes
-│   ├── models.py               # ORM Models
-│   ├── schemas.py              # Pydantic Schemas
-│   ├── security.py             # Auth Utilities
-│   └── database.py             # DB Session 
-```
+Database: SQLite / SQLAlchemy
 
-## Getting Started
+Authentication: JWT
 
-### Prerequisites
-- Flutter SDK (3.0+)
-- Python (3.9+)
+Project Structure
 
-### Running the Backend
+airline_app_test/
+├── app/
+│ ├── lib/
+│ │ ├── main.dart
+│ │ └── ...
+│ ├── pubspec.yaml
+│ └── pubspec.lock
+│
+├── backend/
+│ ├── main.py
+│ ├── models.py
+│ ├── schemas.py
+│ ├── security.py
+│ └── database.py
+│
+└── README.md
 
-1. Navigate to the backend directory:
-   ```bash
-   cd backend
-   ```
-2. Install dependencies (recommended to use venv):
-   ```bash
-   pip install fastapi uvicorn sqlalchemy pydantic passlib python-jose[cryptography]
-   ```
-3. Start the server:
-   ```bash
-   uvicorn main:app --reload
-   ```
-   The API will be available at `http://127.0.0.1:8000`.
+How to Run the Project
+Prerequisites
 
-### Running the Mobile App
+Flutter SDK (3.0 or higher)
 
-1. Navigate to the root directory:
-   ```bash
-   flutter pub get
-   ```
-2. Run on your preferred emulator or device:
-   ```bash
-   flutter run
-   ```
+Python 3.9 or higher
 
-## Future Roadmap
+Run Backend
 
-- [ ] **Seat Map Visualization**: Interactive seat selection with vector graphics.
-- [ ] **Real-world Payment Integration**: Stripe or PayPal implementation.
-- [ ] **Push Notifications**: Real-time updates for flight status changes.
-- [ ] **Check-in Flow**: Automated check-in process 24h prior to departure.
+Open terminal in project root:
 
-## License
+cd backend
+pip install fastapi uvicorn sqlalchemy pydantic passlib python-jose[cryptography]
+uvicorn main:app --reload
 
-This project is licensed under the MIT License - see the LICENSE file for details.
->>>>>>> emil-final
+Backend will run at:
+http://127.0.0.1:8000
+
+Run Flutter App
+
+Open terminal in project root:
+
+cd app
+flutter pub get
+flutter run
+
+Demo Video
+
+https://youtu.be/ziyMW9R6ZRo
+
+Notes
+
+Flutter frontend is located in the app/ folder
+
+Backend API is located in the backend/ folder
+
+Project is submitted using a dedicated submission branch
+
+License
+
+This project is provided for technical evaluation purposes only.
