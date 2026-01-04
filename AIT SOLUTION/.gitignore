@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flutter
+mobile_app/.dart_tool/
+mobile_app/.flutter-plugins
+mobile_app/.flutter-plugins-dependencies
+mobile_app/.packages
+mobile_app/.pub-cache/
+mobile_app/.pub/
+mobile_app/build/
+mobile_app/.ios/
+mobile_app/.android/
+
+# Logs
+*.log
+*.txt
+!requirements.txt
+!CMakeLists.txt
+
+# Temporary files
+temp_*
+*_temp.*
+*.tmp
+
+# Test files
+test_*.py
+check_*.py
+create_*.py
+debug_*.py
+analyze_*.py
+approve_*.py
+clear_*.py
+diagnose_*.py
+fix_*.py
+force_*.py
+init_*.py
+quick_*.py
+setup_*.py
+verify_*.py
+
+# Reports (keep only README.md)
+*_REPORT.md
+*_SUMMARY.md
+*_GUIDE.md
+*_AUDIT.md
+CHECKLIST*.md
+!README.md
+
+
+
